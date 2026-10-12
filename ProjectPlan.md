@@ -69,4 +69,16 @@ Correlation does not equal causation: Our exploratory data analysis may reveal a
 Ethical considerations: Although the datasets are publicly available, we will avoid interpreting crime statistics as definitive measures of neighborhood safety, and we will acknowledge potential reporting biases and avoid making unsupported generalizations about communities. Additionally, we will consider the margins of error associated with ACS estimates when interpreting socioeconomic patterns and comparing community areas.
 
 ## 7. Gaps
+- Scope and feasibility
+- Interpretation of findings
+- Renovation and energy performance
+- Dataset integration
+
+Several aspects of this project will require further investigation as we begin data collection and analysis. First, we need to determine which reporting years provide the most appropriate basis for comparison across the Chicago Energy Benchmarking, American Community Survey, and the Chicago Crime Data datasets.
+
+We also need to select the ACS variables that best represent neighborhood socioeconomic conditions, particularly income, poverty, and housing characteristics. In addition, we must determine an appropriate method for aggregating census tract estimates to Chicago’s community areas so that socioeconomic data can be compared with the other datasets.
+
+We also need to assess whether each community area has enough usable energy benchmarking records to support meaningful comparisons. Preliminary data assessment will help determine whether missing values or unmatched geographic records limit the project’s feasibility. We will also consider how differences in building types and crime reporting may affect interpretation, so that observed associations are not presented as causal relationships. 
+
+Finally, we need to determine how to compare building energy performance and reported crime across community areas. This includes deciding how to summarize energy performance across multiple buildings in each area and how to account for differences in population size when comparing crime rates. 
 
