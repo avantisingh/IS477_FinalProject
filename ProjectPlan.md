@@ -16,7 +16,7 @@ We will use exploratory data analysis to identify geographic patterns and associ
 
 ### 4.1 Chicago Energy Benchmarking
 
-**Source:** [Chicago Data Portal — Chicago Energy Benchmarking](https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/xq83-jr8c/about_data)
+**Source:** [Chicago Data Portal - Chicago Energy Benchmarking](https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/xq83-jr8c/about_data)
 
 The Chicago Energy Benchmarking dataset provides annual information about the energy performance and characteristics of buildings covered by Chicago’s Energy Benchmarking Ordinance. Relevant variables include `Data Year`, `ID`, `Primary Property Type`, `Gross Floor Area - Buildings (sq ft)`, `Site EUI (kBtu/sq ft)`, `Total GHG Emissions (Metric Tons CO2e)`, `GHG Intensity (kg CO2e/sq ft)`, and `Community Area`. These variables will allow us to compare building energy performance across property types, reporting years, and Chicago community areas.
 
@@ -24,7 +24,7 @@ We will assess missing values, duplicate records, and inconsistencies across rep
 
 ### 4.2 American Community Survey
 
-**Source:** [U.S. Census Bureau — American Community Survey](https://www.census.gov/data/developers/data-sets/acs-5year.html)
+**Source:** [U.S. Census Bureau - American Community Survey](https://www.census.gov/data/developers/data-sets/acs-5year.html)
 
 The American Community Survey (ACS) provides estimates of demographic, socioeconomic, and housing characteristics for communities across the United States. We will use ACS five-year estimates to examine characteristics such as median household income, poverty rates, population, and housing conditions in Chicago neighborhoods. These variables will provide socioeconomic context for analyzing differences in building energy performance and reported crime rates across community areas.
 
