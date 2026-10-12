@@ -9,6 +9,12 @@ To achieve our goal, we will collect publicly available datasets like the City o
 After dataset integration, we will conduct exploratory data analysis to identify patterns and associations among our three broad variables: building energy performance, socioeconomic characteristics, and crime rates using several data analysis methods, such as groupby and visualizations. We will document our whole workflow and evaluate limitations related to our datasets and our analysis to produce a well-documented, reproducible analysis that demonstrates how data management, curation, and integration can support meaningful exploration of urban conditions.
 
 ## 2. Team
+We decided to split up our work based on datasets rather than a phase of the project. This is so everyone can work on each phase and there is no gaps in understanding between the datasets and the reasoning as to why we made some choices. We also will changed roles in the future so everyone can work with different datasets and also gives us a chance to proof-read everything so there are not any major information being missed or skimmed over. Our starting roles are going to be: 
+- Crime dataset analyst: Jasmitha
+- Geographic pattern analyst: Anjana 
+- Energy Performance analyst: Avanti
+- Socioeconomic analyst:  Sharanya 
+
 
 ## 3. Research Questions
 
