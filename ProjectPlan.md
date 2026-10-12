@@ -119,10 +119,6 @@ Correlation does not equal causation: Our exploratory data analysis may reveal a
 Ethical considerations: Although the datasets are publicly available, we will avoid interpreting crime statistics as definitive measures of neighborhood safety, and we will acknowledge potential reporting biases and avoid making unsupported generalizations about communities. Additionally, we will consider the margins of error associated with ACS estimates when interpreting socioeconomic patterns and comparing community areas.
 
 ## 7. Gaps
-- Scope and feasibility
-- Interpretation of findings
-- Renovation and energy performance
-- Dataset integration
 
 Several aspects of this project will require further investigation as we begin data collection and analysis. First, we need to determine which reporting years provide the most appropriate basis for comparison across the Chicago Energy Benchmarking, American Community Survey, and the Chicago Crime Data datasets.
 
