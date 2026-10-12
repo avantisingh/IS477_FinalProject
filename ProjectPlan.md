@@ -38,7 +38,7 @@ Because ACS estimates are reported for census tracts rather than Chicago communi
 
 ### 4.3 Chicago Crime Data
 
-**Source:** [Chicago Crime Data]([https://data.cityofchicago.org/Public-Safety/Chicago-Crime-Data/gsj2-yds5](https://data.cityofchicago.org/Public-Safety/Crimes-by-date/ata4-bx2a/about_data))
+**Source:** [Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-by-date/ata4-bx2a/about_data)
 
 The Chicago crime incident dataset provides information about reported crime incidents, including incident dates, crime classifications, and geographic information. Relevant variables include `Date`, `Primary Type`, `Description`, `Year`, and `Community Area`. These fields will allow us to examine how reported crime patterns vary across neighborhoods and compare those patterns with building energy performance and socioeconomic characteristics.
 
