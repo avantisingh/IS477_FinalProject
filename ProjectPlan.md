@@ -14,8 +14,6 @@ We will use exploratory data analysis to identify geographic patterns and associ
 
 ## 4. Datasets
 
-## 4. Datasets
-
 ### 4.1 Chicago Energy Benchmarking
 
 **Source:** [Chicago Data Portal — Chicago Energy Benchmarking](https://data.cityofchicago.org/Environment-Sustainable-Development/Chicago-Energy-Benchmarking/xq83-jr8c/about_data)
