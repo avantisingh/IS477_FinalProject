@@ -56,5 +56,17 @@ We will assess the quality of the integrated dataset by examining missing values
 
 ## 6. Constraints
 
+There are a few constraints that our project may face related to data completeness, geographic alignment, differences in reporting periods, and much more. 
+
+Data completeness and quality: The Chicago energy benchmarking dataset does not cover every building in Chicago, as it focuses on buildings subject to the city’s benchmarking requirements. Similarly, the crime dataset only has reported crimes, but reported crimes do not necessarily present all criminal activity in a neighborhood. This missing information can skew our results, leading to biased results. It also affects how representative our findings are. To address this concern, we should avoid generalizing our findings beyond the available data. 
+
+Geographic alignment: The energy benchmarking and crime datasets include community area identifiers, while ACS data is organized by census tract. Aggregating census tract estimates to community areas may introduce uncertainty because geographic boundaries do not always align perfectly. 
+
+Temporal alignment: The energy and crime datasets cover different time periods, so we will be using the overlapping years in order to make direct comparisons. Additionally, ACS data combines five years of survey data to produce more reliable estimates, particularly for smaller geographic areas. The trade-off is that it doesn't provide a clean snapshot of a single year.
+
+Correlation does not equal causation: Our exploratory data analysis may reveal an association between building energy performance, socioeconomic conditions, and reported crime rates. This does not necessarily equal causation. There are many other factors that may influence observed patterns, like population density, demographics, and much more, so we will interpret our findings as associations rather than evidence that one variable directly causes changes in another. 
+
+Ethical considerations: Although the datasets are publicly available, we will avoid interpreting crime statistics as definitive measures of neighborhood safety, and we will acknowledge potential reporting biases and avoid making unsupported generalizations about communities. Additionally, we will consider the margins of error associated with ACS estimates when interpreting socioeconomic patterns and comparing community areas.
+
 ## 7. Gaps
 
