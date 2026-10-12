@@ -53,6 +53,50 @@ To integrate socioeconomic information, we will use ACS five-year estimates and 
 We will assess the quality of the integrated dataset by examining missing values, duplicate observations, unmatched geographic records, and differences in temporal coverage. We will document all cleaning and integration procedures and evaluate how data limitations affect the analysis. The resulting dataset will support exploratory analysis of associations among building energy performance, neighborhood socioeconomic conditions, and reported crime rates across Chicago's community areas.
 
 ## 5. Timeline
+Project ideation
+- Find datasets centered around crime and energy performance - Everyone 
+- Based on the dataset, determine research question - Everyone 
+- Determine all the variables we want to analyze and the scope, as well as the gaps of the project - Everyone 
+- Submit the outline - 10/12
+Dataset exploration
+- Prepare the datasets for assessment (ie cleaning, same type) - 10/20
+  - Crime dataset cleaning - Jasmitha
+  - Socioeconomic dataset cleaning - Sharanya
+  - Energy dataset cleaning - Avanti
+  - Geographic pattern dataset cleaning - Anjana
+Data assessment - 10/29
+- Assess the most important variable of the dataset and condense the datasets down to the most important variables 
+  - Crime dataset assessment- Jasmitha
+  - Socioeconomic dataset assessment- Sharanya
+  - Energy dataset assessment- Avanti
+  - Geographic pattern dataset assessment- Anjana
+- Proofread others' assessments and cleaning 
+- Determine the feasibility of the integration between the datasets
+- Convert datasets from one type to another if needed - changes based on which dataset needs to be converted 
+Integrated datasets - 11/7
+- Once the datasets are integrated and converted into one dataset, we can start analysis 
+- Proofread that all the variables are the correct types - Anjana/Jasmitha 
+- Additional cleaning if needed/ checking if the dataset could be condensed 
+   - Checking whether to keep the datasets separate or together - Avanti/ Sharanya 
+Analysis - 11/20
+- Create plots 
+  - Plot between crime and socioeconomic standing - Jasmitha
+  - Plot between socioeconomic and energy usage - Sharanya
+  - Plot between geographic pattern and crime - Anjana
+  - Plot between all 3 of them, keeping socioeconomic as the x-axis- Avanti
+- Correlation table - Anjana 
+- K - values, determines the strength of the relationship between data - Jasmitha 
+- Box plot and quartile graph and info - Sharanya 
+- Detailed paragraph about each section that everyone worked on and backing it up with quantitative data - everyone 
+Final deliverable - 12/07
+- Detailed review of the entire project 
+  - Introduction - Jasmitha 
+  - Cleaning and why - Sharanya 
+  - Integration and conversions - Avanti 
+  - Types of analyses and why - Anjana 
+  - Detailed paragraphs of our findings : Everyone 
+- Conclusion - Whoever wants to 
+
 
 ## 6. Constraints
 
