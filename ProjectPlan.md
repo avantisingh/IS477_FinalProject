@@ -2,6 +2,12 @@
 
 ## 1. Overview
 
+Our overall goal of the project is to investigate the relationships between building energy performance, neighborhood socioeconomic conditions, and reported crime rates across Chicago. We are interested in this topic, given the rising crime rates in Chicago, to understand if crime rates are associated with differences in building energy use intensity, greenhouse gas emissions, household income, and poverty. We also want to observe patterns within energy usage intensity, greenhouse gas emission, household income, and poverty.
+
+To achieve our goal, we will collect publicly available datasets like the City of Chicago’s Energy Benchmarking, crime datasets and socioeconomic estimates from the U.S. Census Bureau’s American Community Survey (ACS). We will assess data quality by identifying missing values, duplicates, inconsistent formats, and differences in geographic and temporal coverage. Using Python and pandas, we will clean and standardize all relevant variables. Then we will integrate the energy and crime datasets using Chicago’s 77 community areas variable as the common geographic unit. We will investigate geographic boundary files and appropriate aggregation methods to incorporate census tract estimates into our analysis.
+
+After dataset integration, we will conduct exploratory data analysis to identify patterns and associations among our three broad variables: building energy performance, socioeconomic characteristics, and crime rates using several data analysis methods, such as groupby and visualizations. We will document our whole workflow and evaluate limitations related to our datasets and our analysis to produce a well-documented, reproducible analysis that demonstrates how data management, curation, and integration can support meaningful exploration of urban conditions.
+
 ## 2. Team
 
 ## 3. Research Questions
