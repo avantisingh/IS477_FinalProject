@@ -3,6 +3,48 @@
 ## Task Project Updates
 
 ## Updated Project Timeline
+Project ideation
+- Find datasets centered around crime and energy performance - Everyone 
+- Based on the dataset, determine research question - Everyone 
+- Determine all the variables we want to analyze and the scope, as well as the gaps of the project - Everyone 
+- Submit the outline - 10/12
+Dataset exploration
+- Prepare the datasets for assessment (ie cleaning, same type) - 11/1
+  - Crime dataset cleaning - Jasmitha
+  - Socioeconomic dataset cleaning - Sharanya
+  - Energy dataset cleaning - Avanti
+Data assessment - 11/16
+- Assess the most important variable of the dataset and condense the datasets down to the most important variables 
+  - Crime dataset assessment- Jasmitha
+  - Socioeconomic dataset assessment- Sharanya
+  - Energy dataset assessment- Avanti
+  - Attach locations to each of the datasets - Anjana
+- Proofread others' assessments and cleaning 
+- Determine the feasibility of the integration between the datasets
+- Convert datasets from one type to another if needed - changes based on which dataset needs to be converted 
+Integrated datasets - 11/24
+- Once the datasets are integrated and converted into one dataset, we can start analysis 
+- Proofread that all the variables are the correct types - Anjana/Jasmitha 
+- Additional cleaning if needed/ checking if the dataset could be condensed 
+   - Checking whether to keep the datasets separate or together - Avanti/ Sharanya 
+Analysis - 12/1
+- Create plots 
+  - Plot between crime and socioeconomic standing - Jasmitha
+  - Plot between socioeconomic and energy usage - Sharanya
+  - Plot between geographic pattern and crime - Anjana
+  - Plot between all 3 of them, keeping socioeconomic as the x-axis- Avanti
+- Correlation table - Anjana 
+- K - values, determines the strength of the relationship between data - Jasmitha 
+- Box plot and quartile graph and info - Sharanya 
+- Detailed paragraph about each section that everyone worked on and backing it up with quantitative data - everyone 
+Final deliverable - 12/07
+- Detailed review of the entire project 
+  - Introduction - Jasmitha 
+  - Cleaning and why - Sharanya 
+  - Integration and conversions - Avanti 
+  - Types of analyses and why - Anjana 
+  - Detailed paragraphs of our findings : Everyone 
+- Conclusion - Whoever wants to 
 
 ## Changes to our Project Plan
 Our project plan has very minimal changes. The structure and questions are essentially the same, but our analysis and roles have changed somewhat. Avanti, Jasmitha, and Sharanya will clean and analyze their own datasets. Anjana will take each cleaned CSV and assign a location on a map to understand the geographic patterns across the three datasets. This is the new plan compared to where Anjana would be analyzing an individual geographic pattern CSV. This will also help connect the dots between each of the different datasets. 
