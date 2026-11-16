@@ -55,7 +55,13 @@ One major issue is that the ACS gives estimates by census tract, but both the en
 Moreover, the datasets cover different timelines, in that, the energy and crime data is annual, while the 2023 ACS statistics cover the period of 2019–2023. The measures from the ACS are intended to provide socioeconomic context for the comparison in 2023 – and this limitation is justified.
 
 Broader ACS national totals were first accidentally downloaded. To rectify this problem, we used only the census tracts from Cook County. In the prepared and processed poverty data table, four of the census tracts had zero values for poverty status, resulting in undefined values for poverty rates. Since we had missing poverty rates rather than zero values, we kept them as missing instead of assigning a zero value. 
+
 Now, one final scope issue remains in regard to the inclusion of household income in the project. Currently, the ACS table in use pertains mainly to poverty, thus the scope of the project needs to be defined either by adding the income table or by narrowing it down to solely poverty consideration.
 
+One of the challenges we faced was that the crime dataset was extremely large. Some functions, such as loading the dataframe, were taking too long to run. In order to shorten our dataset, we used a specific timeframe of 2016 to 2023. Yet, the data is still very large which could make it challenging when modelling in the future steps so then we could be using a sampling method.
+
+Another challenge encountered during cleaning the crime dataset was the presence of missing Community Area values and records with unassigned geographic information. Since our project requires comparing crime data with neighborhood-level energy performance and socioeconomic datasets, geographic consistency is important. We examined the missing values and checked that when Community Area is missing, the longitude and latitude are still available except for 4 rows, which we will drop in the future. For the rest of the missing Community Areas, we will aggregate the data using the longitude and latitude variables. 
+
+Lastly, another issue we encountered with the crime dataset was that Community Area 0 was associated with 1,515 reported crimes, despite Chicago having no officially designated Community Area 0. These records represent crimes with unknown or unassigned geographic locations. Since our research focuses on comparing crime rates across Chicago neighborhoods, these records cannot be reliably associated with a specific community area. Therefore, we excluded all rows with Community Area 0 from our neighborhood-level analysis to ensure geographic consistency and meaningful comparisons across community areas.
 
 ## Member Contribution Summary
