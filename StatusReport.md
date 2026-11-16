@@ -9,7 +9,7 @@ I was responsible for cleaning and assessing the crime dataset for our project. 
 For the dataset assessment stage, I explored the distribution of reported crimes across Chicago's Community Areas and aggregated the data to calculate total reported crimes by Community Area. I also created an additional aggregation of crime counts by Community Area and Year to support potential comparisons across neighborhoods and time. Community Area 0, representing unassigned geographic information, was excluded from neighborhood-level analysis.
 
 ## Updated Project Timeline
-Project ideation
+Completed:
 - Find datasets centered around crime and energy performance - Everyone 
 - Based on the dataset, determine research question - Everyone 
 - Determine all the variables we want to analyze and the scope, as well as the gaps of the project - Everyone 
@@ -19,6 +19,7 @@ Dataset exploration
   - Crime dataset cleaning - Jasmitha
   - Socioeconomic dataset cleaning - Sharanya
   - Energy dataset cleaning - Avanti
+Pending:
 Data assessment - 11/16
 - Assess the most important variable of the dataset and condense the datasets down to the most important variables 
   - Crime dataset assessment- Jasmitha
