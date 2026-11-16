@@ -5,6 +5,7 @@
 ## Updated Project Timeline
 
 ## Changes to our Project Plan
+Our project plan has very minimal changes. The structure and questions are essentially the same, but our analysis and roles have changed somewhat. Avanti, Jasmitha, and Sharanya will clean and analyze their own datasets. Anjana will take each cleaned CSV and assign a location on a map to understand the geographic patterns across the three datasets. This is the new plan compared to where Anjana would be analyzing an individual geographic pattern CSV. This will also help connect the dots between each of the different datasets. 
 
 ## Challenges and Problems Faced 
 One major issue is that the ACS gives estimates by census tract, but both the energy and crime statistics are reported by Chicago’s 77 community areas. The 2023 ACS poverty table for the Cook County tracts has been downloaded and cleaned, but this dataset has not yet been linked to the other data. Work is in coordination with Anjana regarding generating a crosswalk to align the tracts with the community areas; unmatched records will be searched for afterward.
