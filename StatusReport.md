@@ -66,4 +66,4 @@ Lastly, another issue we encountered with the crime dataset was that Community A
 
 ## Member Contribution Summary
 Sharanya - Downloaded the 2023 ACS five-year B17001 poverty data for Cook County and cleaned it. Created a cleaning notebook, retained the poverty estimates and margins of error, calculated poverty rates by tract, and checked for duplicate tract IDs and invalid rates or counts. 4 tracts had a poverty-status population of 0, so their rates are not applicable yet. Mapping the tracts is waiting for the team's crosswalk for the community areas. The ACS is for the period of 2019-2023, while other data for the project are only for 2023.
-sssssss
+
