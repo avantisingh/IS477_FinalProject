@@ -8,6 +8,10 @@ I was responsible for cleaning and assessing the crime dataset for our project. 
 
 For the dataset assessment stage, I explored the distribution of reported crimes across Chicago's Community Areas and aggregated the data to calculate total reported crimes by Community Area. I also created an additional aggregation of crime counts by Community Area and Year to support potential comparisons across neighborhoods and time. Community Area 0, representing unassigned geographic information, was excluded from neighborhood-level analysis.
 
+Chicago Energy Cleaning (Avanti)
+
+The Chicago Energy Benchmarking dataset was filtered to include 2016–2023. Initial assessment examined missing values and reporting status, with records labeled "Submitted" and "Submitted Data" selected for preliminary Site EUI analysis. Site EUI was converted from string to numeric format, and descriptive statistics were calculated across reporting years, property types, and Community Areas. Preliminary findings showed variation in energy intensity across years and building types. Inconsistent Community Area labels were also identified and require standardization before integration.
+
 ## Updated Project Timeline
 Completed:
 - Find datasets centered around crime and energy performance - Everyone 
@@ -71,9 +75,13 @@ Another challenge encountered during cleaning the crime dataset was the presence
 
 Lastly, another issue we encountered with the crime dataset was that Community Area 0 was associated with 1,515 reported crimes, despite Chicago having no officially designated Community Area 0. These records represent crimes with unknown or unassigned geographic locations. Since our research focuses on comparing crime rates across Chicago neighborhoods, these records cannot be reliably associated with a specific community area. Therefore, we excluded all rows with Community Area 0 from our neighborhood-level analysis to ensure geographic consistency and meaningful comparisons across community areas.
 
+For the energy dataset, there were several challenges related to missingness, data types, and geographic consistency. Several energy variables had substantial missing values, so Reporting Status was examined to identify records suitable for preliminary Site EUI analysis. Site EUI also required conversion from string to numeric format, although 31 values could not be converted successfully. Additionally, inconsistent Community Area labels resulted in 156 categories instead of the expected 77. These issues require further investigation before geographic comparisons and dataset integration.
+
 ## Member Contribution Summary
 Sharanya - Downloaded the 2023 ACS five-year B17001 poverty data for Cook County and cleaned it. Created a cleaning notebook, retained the poverty estimates and margins of error, calculated poverty rates by tract, and checked for duplicate tract IDs and invalid rates or counts. 4 tracts had a poverty-status population of 0, so their rates are not applicable yet. Mapping the tracts is waiting for the team's crosswalk for the community areas. The ACS is for the period of 2019-2023, while other data for the project are only for 2023.
 
 Jasmitha -  Cleaned and assessed the Chicago crime dataset for 2016–2023. Created a cleaning notebook, converted dates to datetime format, extracted yearly information, retained relevant crime and geographic variables, and examined missing values and crime distributions. Aggregated crime counts by Community Area and year for future analysis. Excluded 1,515 records assigned to Community Area 0 due to unknown geographic locations.
 
 Anjana - Coordinated updated time line and project plan. Started to attach locations to the cleaned csv. Making sure that the location exists by checking that either the zip-code, latitude and longitude are valid, or city. 
+
+Avanti - Downloaded and filtered the Chicago Energy Benchmarking dataset for 2016–2023. Created an exploratory Jupyter Notebook, assessed missing values and reporting status, converted Site EUI to numeric format, and calculated preliminary statistics across reporting years, property types, and Community Areas. Identified inconsistent geographic labels and values requiring further investigation.
