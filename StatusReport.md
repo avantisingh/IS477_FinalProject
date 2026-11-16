@@ -3,6 +3,7 @@
 ## Task Project Updates
 
 Crime Dataset Cleaning and Assessment (Jasmitha)
+
 I was responsible for cleaning and assessing the crime dataset for our project. During the dataset cleaning stage, I filtered the crime data to include the years 2016–2023, converted the Date column into a datetime format, and extracted the Year variable for temporal analysis. I also selected relevant variables, including Date, Primary Type, Community Area, Year, and Arrest, and examined missing values, duplicate records, and the distribution of reported crimes across years and crime categories.
 
 For the dataset assessment stage, I explored the distribution of reported crimes across Chicago's Community Areas and aggregated the data to calculate total reported crimes by Community Area. I also created an additional aggregation of crime counts by Community Area and Year to support potential comparisons across neighborhoods and time. Community Area 0, representing unassigned geographic information, was excluded from neighborhood-level analysis.
